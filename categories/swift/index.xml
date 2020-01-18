@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on PangMo5.dev</title>
+    <link>http://blog.PangMo5.dev/categories/swift/</link>
+    <description>Recent content in Swift on PangMo5.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>a3457709@gmail.com (Kwangmin Bae)</managingEditor>
+    <webMaster>a3457709@gmail.com (Kwangmin Bae)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://blog.PangMo5.dev/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>SwiftUI &#43; Combine 핥아보기</title>
+        <link>http://blog.PangMo5.dev/posts/swiftui&#43;combinequicklook/</link>
+        <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+        <author>a3457709@gmail.com (Kwangmin Bae)</author>
+        <guid>http://blog.PangMo5.dev/posts/swiftui&#43;combinequicklook/</guid>
+        <description>Combine 관련 소스는 2020-01-19 기준 최신화 되었습니다. SwiftUI란? SwiftUI is a modern way to declare user interfaces for any Apple platform. Create beautiful, dynamic apps faster than ever before. WWDC 2019에서 발표된 SwiftUI는 기존의 S</description>
+      </item>
+      
+    
+  </channel>
+</rss>
