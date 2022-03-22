@@ -10,9 +10,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.cd44056d552c69703dced61ae60f99166a0ddf44be93d6aa5d5127d98bf98984.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
 
 <script>
   "use strict";
@@ -691,7 +691,7 @@
 <meta property="og:url" content="http://blog.PangMo5.dev/posts/swiftuicombinequicklook/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.95.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="http://blog.PangMo5.dev/posts/swiftuicombinequicklook/">
@@ -906,7 +906,7 @@
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Jul 29, 2019 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 7 min read </span>
+  <time class="single__info" title="Written At">📅&nbsp;Jul 29, 2019 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 6 min read </span>
   <span class="single__info">
     
   </span>
@@ -1003,7 +1003,7 @@
 <p>이미지가 너무 큼지막하니 좌측 코드에서 다음과 같이 수정 해보겠습니다.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1012,14 +1012,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">VStack</span> <span class="p">{</span>
-	<span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Hello World</span><span class="s">&#34;</span><span class="p">)</span>
-	<span class="n">Image</span><span class="p">(</span><span class="s">&#34;</span><span class="s">IMG_5021</span><span class="s">&#34;</span><span class="p">)</span>
-		<span class="p">.</span><span class="n">resizable</span><span class="p">(</span><span class="p">)</span>
-		<span class="p">.</span><span class="n">aspectRatio</span><span class="p">(</span><span class="n">contentMode</span><span class="p">:</span> <span class="p">.</span><span class="n">fit</span><span class="p">)</span>
-		<span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="p">[</span><span class="p">.</span><span class="n">top</span><span class="p">,</span> <span class="p">.</span><span class="n">bottom</span><span class="p">,</span> <span class="p">.</span><span class="n">leading</span><span class="p">,</span> <span class="p">.</span><span class="n">trailing</span><span class="p">]</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">VStack</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">Text</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">Image</span><span class="p">(</span><span class="s">&#34;IMG_5021&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">.</span><span class="n">resizable</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">.</span><span class="n">aspectRatio</span><span class="p">(</span><span class="n">contentMode</span><span class="p">:</span> <span class="p">.</span><span class="n">fit</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">.</span><span class="n">padding</span><span class="p">([.</span><span class="n">top</span><span class="p">,</span> <span class="p">.</span><span class="n">bottom</span><span class="p">,</span> <span class="p">.</span><span class="n">leading</span><span class="p">,</span> <span class="p">.</span><span class="n">trailing</span><span class="p">],</span> <span class="mi">16</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="/posts/SwiftUI+CombineQuickLook/2019-06-12__7-b644367b-1180-4fde-8790-526165a21aa8.24.31.png" alt="" /></p>
 <p>이 모든 스타일링을 체이닝으로 처리 할 수 있다니 정말 놀랍지 않습니까?</p>
@@ -1029,7 +1029,7 @@
 <p>좌측 코드를 다음과 같이  바꿔주기만하면&hellip;</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1040,16 +1040,16 @@
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">List</span><span class="p">(</span><span class="mf">0.</span><span class="p">.</span><span class="p">&lt;</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span><span class="kc">_</span> <span class="k">in</span>
-	<span class="n">VStack</span> <span class="p">{</span>
-		<span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Hello World</span><span class="s">&#34;</span><span class="p">)</span>
-		<span class="n">Image</span><span class="p">(</span><span class="s">&#34;</span><span class="s">IMG_5021</span><span class="s">&#34;</span><span class="p">)</span>
-			<span class="p">.</span><span class="n">resizable</span><span class="p">(</span><span class="p">)</span>
-			<span class="p">.</span><span class="n">aspectRatio</span><span class="p">(</span><span class="n">contentMode</span><span class="p">:</span> <span class="p">.</span><span class="n">fit</span><span class="p">)</span>
-			<span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="p">[</span><span class="p">.</span><span class="n">top</span><span class="p">,</span> <span class="p">.</span><span class="n">bottom</span><span class="p">,</span> <span class="p">.</span><span class="n">leading</span><span class="p">,</span> <span class="p">.</span><span class="n">trailing</span><span class="p">]</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span>
-	<span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">List</span><span class="p">(</span><span class="mf">0.</span><span class="p">.&lt;</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span><span class="kc">_</span> <span class="k">in</span>
+</span></span><span class="line"><span class="cl">	<span class="n">VStack</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Text</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Image</span><span class="p">(</span><span class="s">&#34;IMG_5021&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">.</span><span class="n">resizable</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">			<span class="p">.</span><span class="n">aspectRatio</span><span class="p">(</span><span class="n">contentMode</span><span class="p">:</span> <span class="p">.</span><span class="n">fit</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">.</span><span class="n">padding</span><span class="p">([.</span><span class="n">top</span><span class="p">,</span> <span class="p">.</span><span class="n">bottom</span><span class="p">,</span> <span class="p">.</span><span class="n">leading</span><span class="p">,</span> <span class="p">.</span><span class="n">trailing</span><span class="p">],</span> <span class="mi">16</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="/posts/SwiftUI+CombineQuickLook/2019-06-13__10-21a1d0f0-4f91-445d-afda-d09986db07cf.52.41.png" alt="" /></p>
 <p>이렇게 List 클로저하나 씌웠을 뿐인데</p>
@@ -1081,7 +1081,7 @@
 <h3 id="생성된-contentview-안에-다음과-같은-body-코드를-작성해줍니다">생성된 ContentView 안에 다음과 같은 body 코드를 작성해줍니다.</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1094,18 +1094,18 @@
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
-    <span class="n">NavigationView</span> <span class="p">{</span>
-        <span class="n">List</span><span class="p">(</span><span class="mf">0.</span><span class="p">.</span><span class="p">&lt;</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span> <span class="n">index</span> <span class="k">in</span>
-            <span class="n">HStack</span> <span class="p">{</span>
-                <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;</span><span class="s">star</span><span class="s">&#34;</span><span class="p">)</span>
-                <span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Hello World</span><span class="s">&#34;</span><span class="p">)</span>
-             <span class="p">}</span>
-        <span class="p">}</span>
-        <span class="p">.</span><span class="n">navigationBarTitle</span><span class="p">(</span><span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Sample App</span><span class="s">&#34;</span><span class="p">)</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">NavigationView</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">List</span><span class="p">(</span><span class="mf">0.</span><span class="p">.&lt;</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span> <span class="n">index</span> <span class="k">in</span>
+</span></span><span class="line"><span class="cl">            <span class="n">HStack</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;star&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">             <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">navigationBarTitle</span><span class="p">(</span><span class="n">Text</span><span class="p">(</span><span class="s">&#34;Sample App&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="/posts/SwiftUI+CombineQuickLook/2019-06-20__5-1951069c-aed0-4996-a020-8a84e8f3505b.15.16.png" alt="" /></p>
 <p>벌써 이렇게 아름다운(?) UI가 생성되었네요.</p>
@@ -1115,7 +1115,7 @@
 <p>각 라인의 설명은 코드내에 주석으로 처리 하였습니다.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1150,46 +1150,46 @@
 </span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="kd">import</span> <span class="nc">Combine</span>
-<span class="kd">import</span> <span class="nc">SwiftUI</span>
-
-<span class="kd">class</span> <span class="nc">ContentViewModel</span><span class="p">:</span> <span class="n">ObservableObject</span> <span class="p">{</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">O</span><span class="c1">b</span><span class="c1">s</span><span class="c1">e</span><span class="c1">r</span><span class="c1">v</span><span class="c1">a</span><span class="c1">b</span><span class="c1">l</span><span class="c1">e</span><span class="c1">O</span><span class="c1">b</span><span class="c1">j</span><span class="c1">e</span><span class="c1">c</span><span class="c1">t</span><span class="c1"> </span><span class="c1">프</span><span class="c1">로</span><span class="c1">토</span><span class="c1">콜</span><span class="c1">을</span><span class="c1"> </span><span class="c1">채</span><span class="c1">택</span><span class="c1">합</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">cancellables</span> <span class="p">=</span> <span class="p">[</span><span class="n">AnyCancellable</span><span class="p">]</span><span class="p">(</span><span class="p">)</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">기</span><span class="c1">존</span><span class="c1"> </span><span class="c1">R</span><span class="c1">x</span><span class="c1">S</span><span class="c1">w</span><span class="c1">i</span><span class="c1">f</span><span class="c1">t</span><span class="c1">의</span><span class="c1"> </span><span class="c1">D</span><span class="c1">i</span><span class="c1">s</span><span class="c1">p</span><span class="c1">o</span><span class="c1">s</span><span class="c1">e</span><span class="c1">B</span><span class="c1">a</span><span class="c1">g</span><span class="c1">과</span><span class="c1"> </span><span class="c1">같</span><span class="c1">은</span><span class="c1"> </span><span class="c1">역</span><span class="c1">할</span><span class="c1">을</span><span class="c1"> </span><span class="c1">하</span><span class="c1">는</span><span class="c1"> </span><span class="c1">녀</span><span class="c1">석</span><span class="c1">입</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span><span class="c1"> </span><span class="c1">해</span><span class="c1">당</span><span class="c1"> </span><span class="c1">객</span><span class="c1">체</span><span class="c1">가</span><span class="c1"> </span><span class="c1">d</span><span class="c1">e</span><span class="c1">I</span><span class="c1">n</span><span class="c1">i</span><span class="c1">t</span><span class="c1">될</span><span class="c1">때</span><span class="c1"> </span><span class="c1">메</span><span class="c1">모</span><span class="c1">리</span><span class="c1"> </span><span class="c1">관</span><span class="c1">리</span><span class="c1">에</span><span class="c1"> </span><span class="c1">사</span><span class="c1">용</span><span class="c1">됩</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-
-    <span class="c1">//</span><span class="c1">I</span><span class="c1">n</span><span class="c1">p</span><span class="c1">u</span><span class="c1">t</span><span class="c1"> </span><span class="c1">O</span><span class="c1">u</span><span class="c1">t</span><span class="c1">p</span><span class="c1">u</span><span class="c1">t</span><span class="c1"> </span><span class="c1">관</span><span class="c1">련</span><span class="c1"> </span><span class="c1">프</span><span class="c1">로</span><span class="c1">퍼</span><span class="c1">티</span><span class="c1"> </span><span class="c1">입</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span><span class="c1"> </span><span class="c1">s</span><span class="c1">t</span><span class="c1">r</span><span class="c1">u</span><span class="c1">c</span><span class="c1">t</span><span class="c1">안</span><span class="c1">에</span><span class="c1"> </span><span class="c1">넣</span><span class="c1">고</span><span class="c1"> </span><span class="c1">싶</span><span class="c1">은</span><span class="c1">데</span><span class="c1"> </span><span class="c1">P</span><span class="c1">u</span><span class="c1">b</span><span class="c1">l</span><span class="c1">i</span><span class="c1">s</span><span class="c1">h</span><span class="c1">e</span><span class="c1">d</span><span class="c1"> </span><span class="c1">프</span><span class="c1">로</span><span class="c1">퍼</span><span class="c1">티</span><span class="c1"> </span><span class="c1">래</span><span class="c1">퍼</span><span class="c1">가</span><span class="c1"> </span><span class="c1">c</span><span class="c1">l</span><span class="c1">a</span><span class="c1">s</span><span class="c1">s</span><span class="c1">에</span><span class="c1">서</span><span class="c1">만</span><span class="c1"> </span><span class="c1">사</span><span class="c1">용</span><span class="c1">가</span><span class="c1">능</span><span class="c1">하</span><span class="c1">다</span><span class="c1">고</span><span class="c1"> </span><span class="c1">하</span><span class="c1">네</span><span class="c1">요</span><span class="c1"> </span><span class="c1">ㅠ</span><span class="c1">ㅠ</span>
-    <span class="c1">//</span><span class="c1">P</span><span class="c1">u</span><span class="c1">b</span><span class="c1">l</span><span class="c1">i</span><span class="c1">s</span><span class="c1">h</span><span class="c1">e</span><span class="c1">d</span><span class="c1"> </span><span class="c1">프</span><span class="c1">로</span><span class="c1">퍼</span><span class="c1">티</span><span class="c1"> </span><span class="c1">래</span><span class="c1">퍼</span><span class="c1">를</span><span class="c1"> </span><span class="c1">씌</span><span class="c1">워</span><span class="c1"> </span><span class="c1">줍</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">didTap</span> <span class="p">=</span> <span class="mi">0</span>
-    
-    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">isErrorShown</span> <span class="p">=</span> <span class="kc">false</span>
-    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">labelText</span><span class="p">:</span> <span class="nb">String</span><span class="p">?</span>
-    
-    <span class="kd">init</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">transform</span><span class="p">(</span><span class="p">)</span>
-    <span class="p">}</span>
-    
-    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">transform</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-        
-        <span class="kd">let</span> <span class="nv">isError</span> <span class="p">=</span> <span class="err">$</span><span class="n">didTap</span>
-            <span class="p">.</span><span class="bp">map</span> <span class="p">{</span> <span class="nv">$0</span> <span class="p">=</span><span class="p">=</span> <span class="mi">4</span> <span class="p">}</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">m</span><span class="c1">a</span><span class="c1">p</span><span class="c1"> </span><span class="c1">오</span><span class="c1">퍼</span><span class="c1">레</span><span class="c1">이</span><span class="c1">터</span><span class="c1">를</span><span class="c1"> </span><span class="c1">사</span><span class="c1">용</span><span class="c1">해</span><span class="c1"> </span><span class="c1">B</span><span class="c1">o</span><span class="c1">o</span><span class="c1">l</span><span class="c1"> </span><span class="c1">값</span><span class="c1">으</span><span class="c1">로</span><span class="c1"> </span><span class="c1">변</span><span class="c1">환</span><span class="c1">합</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-            
-        <span class="n">isError</span>
-            <span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">to</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">isErrorShown</span><span class="p">,</span> <span class="n">on</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">i</span><span class="c1">s</span><span class="c1">E</span><span class="c1">r</span><span class="c1">r</span><span class="c1">o</span><span class="c1">r</span><span class="c1"> </span><span class="c1">P</span><span class="c1">u</span><span class="c1">b</span><span class="c1">l</span><span class="c1">i</span><span class="c1">s</span><span class="c1">h</span><span class="c1">e</span><span class="c1">r</span><span class="c1">를</span><span class="c1"> </span><span class="c1">i</span><span class="c1">s</span><span class="c1">E</span><span class="c1">r</span><span class="c1">r</span><span class="c1">o</span><span class="c1">r</span><span class="c1">S</span><span class="c1">h</span><span class="c1">o</span><span class="c1">w</span><span class="c1">n</span><span class="c1">에</span><span class="c1"> </span><span class="c1">K</span><span class="c1">e</span><span class="c1">y</span><span class="c1">P</span><span class="c1">a</span><span class="c1">t</span><span class="c1">h</span><span class="c1">를</span><span class="c1"> </span><span class="c1">사</span><span class="c1">용</span><span class="c1">해</span><span class="c1"> </span><span class="c1">a</span><span class="c1">s</span><span class="c1">s</span><span class="c1">i</span><span class="c1">g</span><span class="c1">n</span><span class="c1"> </span><span class="c1">해</span><span class="c1">줍</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-            <span class="p">.</span><span class="n">store</span><span class="p">(</span><span class="k">in</span><span class="p">:</span> <span class="p">&amp;</span><span class="n">cancellables</span><span class="p">)</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">해</span><span class="c1">당</span><span class="c1"> </span><span class="c1">C</span><span class="c1">a</span><span class="c1">n</span><span class="c1">c</span><span class="c1">e</span><span class="c1">l</span><span class="c1">l</span><span class="c1">a</span><span class="c1">b</span><span class="c1">l</span><span class="c1">e</span><span class="c1">을</span><span class="c1"> </span><span class="c1">저</span><span class="c1">장</span><span class="c1">해</span><span class="c1">줍</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-        
-        <span class="n">isError</span><span class="p">.</span><span class="bp">filter</span> <span class="p">{</span> <span class="o">!</span><span class="nv">$0</span> <span class="p">}</span>
-            <span class="p">.</span><span class="n">zip</span><span class="p">(</span><span class="err">$</span><span class="n">didTap</span><span class="p">)</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">i</span><span class="c1">s</span><span class="c1">E</span><span class="c1">r</span><span class="c1">r</span><span class="c1">o</span><span class="c1">r</span><span class="c1"> </span><span class="c1">와</span><span class="c1"> </span><span class="c1">d</span><span class="c1">i</span><span class="c1">d</span><span class="c1">T</span><span class="c1">a</span><span class="c1">p</span><span class="c1">을</span><span class="c1"> </span><span class="c1">z</span><span class="c1">i</span><span class="c1">p</span><span class="c1">으</span><span class="c1">로</span><span class="c1"> </span><span class="c1">묶</span><span class="c1">어</span><span class="c1">줍</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-            <span class="p">.</span><span class="bp">map</span> <span class="p">{</span> <span class="s">&#34;</span><span class="s">Sucessed </span><span class="si">\(</span><span class="nv">$0</span><span class="p">.</span><span class="mi">1</span><span class="si">)</span><span class="s">&#34;</span> <span class="p">}</span>
-            <span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">to</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">labelText</span><span class="p">,</span> <span class="n">on</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span>
-            <span class="p">.</span><span class="n">store</span><span class="p">(</span><span class="k">in</span><span class="p">:</span> <span class="p">&amp;</span><span class="n">cancellables</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">Combine</span>
+</span></span><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">SwiftUI</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">ContentViewModel</span><span class="p">:</span> <span class="n">ObservableObject</span> <span class="p">{</span> <span class="c1">// ObservableObject 프로토콜을 채택합니다.</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">cancellables</span> <span class="p">=</span> <span class="p">[</span><span class="n">AnyCancellable</span><span class="p">]()</span> <span class="c1">// 기존 RxSwift의 DisposeBag과 같은 역할을 하는 녀석입니다. 해당 객체가 deInit될때 메모리 관리에 사용됩니다.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">//Input Output 관련 프로퍼티 입니다. struct안에 넣고 싶은데 Published 프로퍼티 래퍼가 class에서만 사용가능하다고 하네요 ㅠㅠ</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">//Published 프로퍼티 래퍼를 씌워 줍니다.</span>
+</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">didTap</span> <span class="p">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">isErrorShown</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">labelText</span><span class="p">:</span> <span class="nb">String</span><span class="p">?</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kd">init</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">transform</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">transform</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">isError</span> <span class="p">=</span> <span class="err">$</span><span class="n">didTap</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="bp">map</span> <span class="p">{</span> <span class="nv">$0</span> <span class="p">==</span> <span class="mi">4</span> <span class="p">}</span> <span class="c1">// map 오퍼레이터를 사용해 Bool 값으로 변환합니다.</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">        <span class="n">isError</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">to</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">isErrorShown</span><span class="p">,</span> <span class="n">on</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span> <span class="c1">// isError Publisher를 isErrorShown에 KeyPath를 사용해 assign 해줍니다.</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">store</span><span class="p">(</span><span class="k">in</span><span class="p">:</span> <span class="p">&amp;</span><span class="n">cancellables</span><span class="p">)</span> <span class="c1">// 해당 Cancellable을 저장해줍니다.</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="n">isError</span><span class="p">.</span><span class="bp">filter</span> <span class="p">{</span> <span class="o">!</span><span class="nv">$0</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">zip</span><span class="p">(</span><span class="err">$</span><span class="n">didTap</span><span class="p">)</span> <span class="c1">// isError 와 didTap을 zip으로 묶어줍니다.</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="bp">map</span> <span class="p">{</span> <span class="s">&#34;Sucessed </span><span class="si">\(</span><span class="nv">$0</span><span class="p">.</span><span class="mi">1</span><span class="si">)</span><span class="s">&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">to</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">labelText</span><span class="p">,</span> <span class="n">on</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">store</span><span class="p">(</span><span class="k">in</span><span class="p">:</span> <span class="p">&amp;</span><span class="n">cancellables</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="여기서-기존-contentview코드를-다음과-같이-설정해줍니다">여기서 기존 ContentVIew코드를 다음과 같이 설정해줍니다.</h3>
 <p>각 라인의 설명은 코드내에 주석으로 처리 하였습니다.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1211,27 +1211,27 @@
 </span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="kd">struct</span> <span class="nc">ContentView</span><span class="p">:</span> <span class="n">View</span> <span class="p">{</span>
-    <span class="p">@</span><span class="n">ObservedObject</span> <span class="kd">var</span> <span class="nv">viewModel</span> <span class="p">=</span> <span class="n">ContentViewModel</span><span class="p">(</span><span class="p">)</span> <span class="c1">//</span><span class="c1">O</span><span class="c1">b</span><span class="c1">j</span><span class="c1">e</span><span class="c1">c</span><span class="c1">t</span><span class="c1">B</span><span class="c1">i</span><span class="c1">d</span><span class="c1">i</span><span class="c1">n</span><span class="c1">g</span><span class="c1"> </span><span class="c1">프</span><span class="c1">로</span><span class="c1">퍼</span><span class="c1">티</span><span class="c1">래</span><span class="c1">퍼</span><span class="c1">로</span><span class="c1"> </span><span class="c1">감</span><span class="c1">싼</span><span class="c1"> </span><span class="c1">v</span><span class="c1">i</span><span class="c1">e</span><span class="c1">w</span><span class="c1">M</span><span class="c1">o</span><span class="c1">d</span><span class="c1">e</span><span class="c1">l</span><span class="c1"> </span><span class="c1">를</span><span class="c1"> </span><span class="c1">생</span><span class="c1">성</span><span class="c1">해</span><span class="c1">줍</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-    
-    <span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
-        <span class="n">NavigationView</span> <span class="p">{</span>
-            <span class="n">List</span><span class="p">(</span><span class="mf">0.</span><span class="p">.</span><span class="p">&lt;</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span> <span class="n">index</span> <span class="k">in</span>
-                <span class="n">HStack</span> <span class="p">{</span>
-                    <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;</span><span class="s">star</span><span class="s">&#34;</span><span class="p">)</span>
-                    <span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Hello World</span><span class="s">&#34;</span><span class="p">)</span>
-                <span class="p">}</span><span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">해</span><span class="c1">당</span><span class="c1"> </span><span class="c1">V</span><span class="c1">i</span><span class="c1">e</span><span class="c1">w</span><span class="c1">가</span><span class="c1"> </span><span class="c1">탭</span><span class="c1"> </span><span class="c1">될</span><span class="c1">때</span><span class="c1"> </span><span class="c1">호</span><span class="c1">출</span><span class="c1">됩</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-                    <span class="kc">self</span><span class="p">.</span><span class="n">viewModel</span><span class="p">.</span><span class="n">didTap</span> <span class="p">=</span> <span class="n">index</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">v</span><span class="c1">i</span><span class="c1">e</span><span class="c1">w</span><span class="c1">M</span><span class="c1">o</span><span class="c1">d</span><span class="c1">e</span><span class="c1">l</span><span class="c1">의</span><span class="c1"> </span><span class="c1">d</span><span class="c1">i</span><span class="c1">d</span><span class="c1">T</span><span class="c1">a</span><span class="c1">p</span><span class="c1"> </span><span class="c1">프</span><span class="c1">로</span><span class="c1">퍼</span><span class="c1">티</span><span class="c1">에</span><span class="c1"> </span><span class="c1">i</span><span class="c1">n</span><span class="c1">d</span><span class="c1">e</span><span class="c1">x</span><span class="c1">를</span><span class="c1"> </span><span class="c1">대</span><span class="c1">입</span><span class="c1">해</span><span class="c1">줍</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-            <span class="p">.</span><span class="n">alert</span><span class="p">(</span><span class="n">isPresented</span><span class="p">:</span> <span class="err">$</span><span class="n">viewModel</span><span class="p">.</span><span class="n">isErrorShown</span><span class="p">,</span> <span class="n">content</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="p">)</span> <span class="p">-&gt;</span> <span class="n">Alert</span> <span class="k">in</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">v</span><span class="c1">i</span><span class="c1">e</span><span class="c1">w</span><span class="c1">M</span><span class="c1">o</span><span class="c1">d</span><span class="c1">e</span><span class="c1">l</span><span class="c1">.</span><span class="c1">i</span><span class="c1">s</span><span class="c1">E</span><span class="c1">r</span><span class="c1">r</span><span class="c1">o</span><span class="c1">r</span><span class="c1">S</span><span class="c1">h</span><span class="c1">o</span><span class="c1">w</span><span class="c1">n</span><span class="c1"> </span><span class="c1">값</span><span class="c1">이</span><span class="c1"> </span><span class="c1">변</span><span class="c1">경</span><span class="c1">될</span><span class="c1">때</span><span class="c1"> </span><span class="c1">t</span><span class="c1">r</span><span class="c1">u</span><span class="c1">e</span><span class="c1"> </span><span class="c1">일</span><span class="c1"> </span><span class="c1">경</span><span class="c1">우</span>
-                <span class="n">Alert</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Error</span><span class="s">&#34;</span><span class="p">)</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Error</span><span class="s">&#34;</span><span class="p">)</span><span class="p">)</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">A</span><span class="c1">l</span><span class="c1">e</span><span class="c1">r</span><span class="c1">t</span><span class="c1"> </span><span class="c1">뷰</span><span class="c1">를</span><span class="c1"> </span><span class="c1">띄</span><span class="c1">워</span><span class="c1">줍</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-            <span class="p">}</span><span class="p">)</span>
-            <span class="p">.</span><span class="n">navigationBarTitle</span><span class="p">(</span><span class="n">Text</span><span class="p">(</span><span class="n">viewModel</span><span class="p">.</span><span class="n">labelText</span> <span class="p">?</span><span class="p">?</span> <span class="s">&#34;</span><span class="s">Sample App</span><span class="s">&#34;</span><span class="p">)</span><span class="p">)</span> <span class="c1">//</span><span class="c1"> </span><span class="c1">v</span><span class="c1">i</span><span class="c1">e</span><span class="c1">w</span><span class="c1">M</span><span class="c1">o</span><span class="c1">d</span><span class="c1">e</span><span class="c1">l</span><span class="c1">.</span><span class="c1">l</span><span class="c1">a</span><span class="c1">b</span><span class="c1">e</span><span class="c1">l</span><span class="c1">T</span><span class="c1">e</span><span class="c1">x</span><span class="c1">t</span><span class="c1">을</span><span class="c1"> </span><span class="c1">알</span><span class="c1">아</span><span class="c1">서</span><span class="c1"> </span><span class="c1">옵</span><span class="c1">져</span><span class="c1">빙</span><span class="c1">하</span><span class="c1">여</span><span class="c1"> </span><span class="c1">해</span><span class="c1">당</span><span class="c1">값</span><span class="c1">으</span><span class="c1">로</span><span class="c1"> </span><span class="c1">네</span><span class="c1">비</span><span class="c1">게</span><span class="c1">이</span><span class="c1">션</span><span class="c1"> </span><span class="c1">타</span><span class="c1">이</span><span class="c1">틀</span><span class="c1"> </span><span class="c1">값</span><span class="c1">을</span><span class="c1"> </span><span class="c1">설</span><span class="c1">정</span><span class="c1">해</span><span class="c1">줍</span><span class="c1">니</span><span class="c1">다</span><span class="c1">.</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">ContentView</span><span class="p">:</span> <span class="n">View</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">ObservedObject</span> <span class="kd">var</span> <span class="nv">viewModel</span> <span class="p">=</span> <span class="n">ContentViewModel</span><span class="p">()</span> <span class="c1">//ObjectBiding 프로퍼티래퍼로 감싼 viewModel 를 생성해줍니다.</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">NavigationView</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">List</span><span class="p">(</span><span class="mf">0.</span><span class="p">.&lt;</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span> <span class="n">index</span> <span class="k">in</span>
+</span></span><span class="line"><span class="cl">                <span class="n">HStack</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;star&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}.</span><span class="n">onTapGesture</span> <span class="p">{</span> <span class="c1">// 해당 View가 탭 될때 호출됩니다.</span>
+</span></span><span class="line"><span class="cl">                    <span class="kc">self</span><span class="p">.</span><span class="n">viewModel</span><span class="p">.</span><span class="n">didTap</span> <span class="p">=</span> <span class="n">index</span> <span class="c1">// viewModel의 didTap 프로퍼티에 index를 대입해줍니다.</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">alert</span><span class="p">(</span><span class="n">isPresented</span><span class="p">:</span> <span class="err">$</span><span class="n">viewModel</span><span class="p">.</span><span class="n">isErrorShown</span><span class="p">,</span> <span class="n">content</span><span class="p">:</span> <span class="p">{</span> <span class="p">()</span> <span class="p">-&gt;</span> <span class="n">Alert</span> <span class="k">in</span> <span class="c1">// viewModel.isErrorShown 값이 변경될때 true 일 경우</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Alert</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Error&#34;</span><span class="p">),</span> <span class="n">message</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Error&#34;</span><span class="p">))</span> <span class="c1">// Alert 뷰를 띄워줍니다.</span>
+</span></span><span class="line"><span class="cl">            <span class="p">})</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">navigationBarTitle</span><span class="p">(</span><span class="n">Text</span><span class="p">(</span><span class="n">viewModel</span><span class="p">.</span><span class="n">labelText</span> <span class="p">??</span> <span class="s">&#34;Sample App&#34;</span><span class="p">))</span> <span class="c1">// viewModel.labelText을 알아서 옵져빙하여 해당값으로 네비게이션 타이틀 값을 설정해줍니다.</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>이렇게 코드를 작성한 뒤 빌드를 해보면</p>
 <p>다음과 같이 index가 0~3 까지의 Row 선택시 네비게이션 타이틀이 변경되는것을 볼 수 있고</p>
@@ -1243,7 +1243,7 @@
 <h3 id="contentview-최종코드">ContentView 최종코드</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1265,32 +1265,32 @@
 </span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="kd">struct</span> <span class="nc">ContentView</span><span class="p">:</span> <span class="n">View</span> <span class="p">{</span>
-    <span class="p">@</span><span class="n">ObservedObject</span> <span class="kd">var</span> <span class="nv">viewModel</span> <span class="p">=</span> <span class="n">ContentViewModel</span><span class="p">(</span><span class="p">)</span>
-    
-    <span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
-        <span class="n">NavigationView</span> <span class="p">{</span>
-            <span class="n">List</span><span class="p">(</span><span class="mf">0.</span><span class="p">.</span><span class="p">&lt;</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span> <span class="n">index</span> <span class="k">in</span>
-                <span class="n">HStack</span> <span class="p">{</span>
-                    <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;</span><span class="s">star</span><span class="s">&#34;</span><span class="p">)</span>
-                    <span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Hello World</span><span class="s">&#34;</span><span class="p">)</span>
-                <span class="p">}</span><span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
-                    <span class="kc">self</span><span class="p">.</span><span class="n">viewModel</span><span class="p">.</span><span class="n">didTap</span> <span class="p">=</span> <span class="n">index</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-            <span class="p">.</span><span class="n">alert</span><span class="p">(</span><span class="n">isPresented</span><span class="p">:</span> <span class="err">$</span><span class="n">viewModel</span><span class="p">.</span><span class="n">isErrorShown</span><span class="p">,</span> <span class="n">content</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="p">)</span> <span class="p">-&gt;</span> <span class="n">Alert</span> <span class="k">in</span>
-                <span class="n">Alert</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Error</span><span class="s">&#34;</span><span class="p">)</span><span class="p">,</span> <span class="n">message</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s">&#34;</span><span class="s">Error</span><span class="s">&#34;</span><span class="p">)</span><span class="p">)</span>
-            <span class="p">}</span><span class="p">)</span>
-            <span class="p">.</span><span class="n">navigationBarTitle</span><span class="p">(</span><span class="n">Text</span><span class="p">(</span><span class="n">viewModel</span><span class="p">.</span><span class="n">labelText</span> <span class="p">?</span><span class="p">?</span> <span class="s">&#34;</span><span class="s">Sample App</span><span class="s">&#34;</span><span class="p">)</span><span class="p">)</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">ContentView</span><span class="p">:</span> <span class="n">View</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">ObservedObject</span> <span class="kd">var</span> <span class="nv">viewModel</span> <span class="p">=</span> <span class="n">ContentViewModel</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">NavigationView</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">List</span><span class="p">(</span><span class="mf">0.</span><span class="p">.&lt;</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span> <span class="n">index</span> <span class="k">in</span>
+</span></span><span class="line"><span class="cl">                <span class="n">HStack</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;star&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}.</span><span class="n">onTapGesture</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="kc">self</span><span class="p">.</span><span class="n">viewModel</span><span class="p">.</span><span class="n">didTap</span> <span class="p">=</span> <span class="n">index</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">alert</span><span class="p">(</span><span class="n">isPresented</span><span class="p">:</span> <span class="err">$</span><span class="n">viewModel</span><span class="p">.</span><span class="n">isErrorShown</span><span class="p">,</span> <span class="n">content</span><span class="p">:</span> <span class="p">{</span> <span class="p">()</span> <span class="p">-&gt;</span> <span class="n">Alert</span> <span class="k">in</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Alert</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Error&#34;</span><span class="p">),</span> <span class="n">message</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Error&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">            <span class="p">})</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">navigationBarTitle</span><span class="p">(</span><span class="n">Text</span><span class="p">(</span><span class="n">viewModel</span><span class="p">.</span><span class="n">labelText</span> <span class="p">??</span> <span class="s">&#34;Sample App&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="contentviewmodel-최종코드">ContentViewModel 최종코드</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1320,35 +1320,35 @@
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="kd">class</span> <span class="nc">ContentViewModel</span><span class="p">:</span> <span class="n">ObservableObject</span> <span class="p">{</span>
-    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">cancellables</span> <span class="p">=</span> <span class="p">[</span><span class="n">AnyCancellable</span><span class="p">]</span><span class="p">(</span><span class="p">)</span>
-
-    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">didTap</span> <span class="p">=</span> <span class="mi">0</span>
-    
-    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">isErrorShown</span> <span class="p">=</span> <span class="kc">false</span>
-    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">labelText</span><span class="p">:</span> <span class="nb">String</span><span class="p">?</span>
-    
-    <span class="kd">init</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">transform</span><span class="p">(</span><span class="p">)</span>
-    <span class="p">}</span>
-    
-    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">transform</span><span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-        
-        <span class="kd">let</span> <span class="nv">isError</span> <span class="p">=</span> <span class="err">$</span><span class="n">didTap</span>
-            <span class="p">.</span><span class="bp">map</span> <span class="p">{</span> <span class="nv">$0</span> <span class="p">=</span><span class="p">=</span> <span class="mi">4</span> <span class="p">}</span>
-            
-        <span class="n">isError</span>
-            <span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">to</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">isErrorShown</span><span class="p">,</span> <span class="n">on</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span>
-            <span class="p">.</span><span class="n">store</span><span class="p">(</span><span class="k">in</span><span class="p">:</span> <span class="p">&amp;</span><span class="n">cancellables</span><span class="p">)</span>
-        
-        <span class="n">isError</span><span class="p">.</span><span class="bp">filter</span> <span class="p">{</span> <span class="o">!</span><span class="nv">$0</span> <span class="p">}</span>
-            <span class="p">.</span><span class="n">zip</span><span class="p">(</span><span class="err">$</span><span class="n">didTap</span><span class="p">)</span>
-            <span class="p">.</span><span class="bp">map</span> <span class="p">{</span> <span class="s">&#34;</span><span class="s">Sucessed </span><span class="si">\(</span><span class="nv">$0</span><span class="p">.</span><span class="mi">1</span><span class="si">)</span><span class="s">&#34;</span> <span class="p">}</span>
-            <span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">to</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">labelText</span><span class="p">,</span> <span class="n">on</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span>
-            <span class="p">.</span><span class="n">store</span><span class="p">(</span><span class="k">in</span><span class="p">:</span> <span class="p">&amp;</span><span class="n">cancellables</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">ContentViewModel</span><span class="p">:</span> <span class="n">ObservableObject</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">var</span> <span class="nv">cancellables</span> <span class="p">=</span> <span class="p">[</span><span class="n">AnyCancellable</span><span class="p">]()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">didTap</span> <span class="p">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">isErrorShown</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">Published</span> <span class="kd">var</span> <span class="nv">labelText</span><span class="p">:</span> <span class="nb">String</span><span class="p">?</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kd">init</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">transform</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">transform</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">isError</span> <span class="p">=</span> <span class="err">$</span><span class="n">didTap</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="bp">map</span> <span class="p">{</span> <span class="nv">$0</span> <span class="p">==</span> <span class="mi">4</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">        <span class="n">isError</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">to</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">isErrorShown</span><span class="p">,</span> <span class="n">on</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">store</span><span class="p">(</span><span class="k">in</span><span class="p">:</span> <span class="p">&amp;</span><span class="n">cancellables</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="n">isError</span><span class="p">.</span><span class="bp">filter</span> <span class="p">{</span> <span class="o">!</span><span class="nv">$0</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">zip</span><span class="p">(</span><span class="err">$</span><span class="n">didTap</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="bp">map</span> <span class="p">{</span> <span class="s">&#34;Sucessed </span><span class="si">\(</span><span class="nv">$0</span><span class="p">.</span><span class="mi">1</span><span class="si">)</span><span class="s">&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">to</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">labelText</span><span class="p">,</span> <span class="n">on</span><span class="p">:</span> <span class="kc">self</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">store</span><span class="p">(</span><span class="k">in</span><span class="p">:</span> <span class="p">&amp;</span><span class="n">cancellables</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="마치며">마치며&hellip;</h2>
 <p>이렇게 WWDC 2019에서 공개된 SwiftUi와 Combine 프레임워크를 살펴 보았습니다.</p>
@@ -1521,7 +1521,7 @@
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.765b4f11b824d1e47bfbea7c9047fe796f52a7d2fd6ed0b55eef2ec78335043a.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2491,7 +2491,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2020, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         
