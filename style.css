@@ -1,4 +1,4 @@
-/* SwiftyCrow site — shared styles (Apple-developer-site homage). */
+/* PangMo5 sites — shared styles (Apple-developer-site homage). */
 
 :root {
   --text: #1d1d1f;
@@ -302,7 +302,7 @@ footer p { line-height: 1.5; }
 .state { max-width: 760px; margin: 0 auto; padding: 40px 22px; text-align: center; color: var(--text-secondary); font-size: 16px; }
 
 /* ---------- Portfolio (apex home) ---------- */
-.apps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; margin-top: 56px; text-align: left; }
+.apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 26px; margin-top: 56px; text-align: left; }
 .app-card { display: flex; gap: 18px; align-items: flex-start; background: var(--card-bg); border: 1px solid var(--card-border); box-shadow: var(--card-shadow); border-radius: var(--radius); padding: 26px; color: var(--text); transition: transform .2s ease, box-shadow .2s ease; }
 .app-card:hover { text-decoration: none; transform: translateY(-2px); box-shadow: 0 10px 28px rgba(0,0,0,0.12); }
 .app-card img { width: 60px; height: 60px; border-radius: 14px; flex: 0 0 60px; }
