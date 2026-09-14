@@ -1,0 +1,7 @@
+# Existing project URLs keep their path, query, and browser fragment.
+/Amado https://amado.pangmo5.dev/ 301
+/SwiftyCrow https://swiftycrow.pangmo5.dev/ 301
+/Tatami https://tatami.pangmo5.dev/ 301
+/Amado/* https://amado.pangmo5.dev/:splat 301
+/SwiftyCrow/* https://swiftycrow.pangmo5.dev/:splat 301
+/Tatami/* https://tatami.pangmo5.dev/:splat 301

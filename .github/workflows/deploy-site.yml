@@ -1,0 +1,33 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: cloudflare
+      url: https://pangmo5.dev
+    steps:
+      - uses: actions/checkout@v6
+      - name: Assemble public site
+        run: |
+          mkdir -p dist
+          cp index.html style.css avatar.jpg swiftycrow.png tatami.png _redirects dist/
+      - name: Deploy static assets
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.131.2"
+          command: deploy
